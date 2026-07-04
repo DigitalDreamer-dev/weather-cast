@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Cast</title>
+
+    <link rel="stylesheet" href="sprint3.css">
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <h1>Weather Cast</h1>
+        </header>
+
+        <section class="search-section">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+
+            <button id="searchBttn">
+                Search
+            </button>
+        </section>
+
+        <p id="errorMessage"></p>
+
+        <section class="weather-card">
+
+            <img id="weatherIcon" src="" alt="Weather Icon">
+
+            <h2 id="cityName">
+
+            </h2>
+
+            <h3 id="temperature">
+                °C
+            </h3>
+
+            <p id="condition">
+                Weather Condition
+            </p>
+
+            <p id="humidity">
+                Humidity: %
+            </p>
+            <div class="weather-details">
+                <div class="detail-box">
+                    <p id="sunrise"></p>
+                    <p id="sunset"></p>
+                </div>
+
+                <div class="detail-box">
+                    <p id="feelsLike"></p>
+                    <p id="windSpeed"></p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="sprint3.js"></script>
+
+</body>
+
+</html>
