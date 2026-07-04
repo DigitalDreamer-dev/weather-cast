@@ -1,2 +1,9 @@
-# weather-cast
+
+# Prodesk IT — Sprint 3 weather-cast
+
+Live site: 
+
 Weather-Cast is a responsive weather app that provides live weather updates, geolocation support, local storage caching, and dynamic weather-based themes.
+
+## Screenshot
+![Screenshot]()
